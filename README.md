@@ -1,4 +1,4 @@
-**Niño 3.4 Experimental Anomaly Forecast **
+**Niño 3.4 Experimental Anomaly Forecast**
 
 This is an experimental machine-learning project developed for educational and research purposes. It explores historical sea-surface temperature anomalies in the Niño 3.4 region of the central-eastern equatorial Pacific Ocean, an area commonly monitored when studying El Niño and La Niña.
 The project uses monthly ocean temperature anomaly data obtained from the National Oceanic and Atmospheric Administration (NOAA), covering 1950 to the latest available observation in the dataset.
