@@ -129,7 +129,7 @@ st.sidebar.caption("For educational purposes")
 # ==========================================
 if page == "Overview":
 
-    st.title("Niño 3.4 experimental Anomaly Forecast")
+    st.title("Niño 3.4 Experimental Anomaly Forecast")
 
     st.write(
         "Explore monthly sea-surface temperature anomalies "
