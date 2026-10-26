@@ -92,5 +92,5 @@ latest = df.iloc[-1]
 latest_four = df["ANOM.3"].tail(4).to_list()
 
 # tail(4) is oldest-to-newest; the model expects current month first.
-features = pd.DataFrame(
+features = pd.DataFrame()
     [[latest_four[3], latest_four[2], latest_four[1], latest_four[0]]],
