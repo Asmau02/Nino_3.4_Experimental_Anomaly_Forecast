@@ -11,7 +11,7 @@ import numpy as np
 # 1. PAGE CONFIGURATION
 # ==========================================
 st.set_page_config(
-    page_title="Niño 3.4 Climate Explorer",
+    page_title="Niño 3.4 Experimental Anomaly Forecast",
     page_icon="🌊",
     layout="wide"
 )
