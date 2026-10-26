@@ -131,6 +131,7 @@ comparison = pd.DataFrame({
 })
 
 comparison["Month"] = pd.to_datetime(comparison["Month"])
+comparison["Month"] = comparison["Month"].dt.strftime("%b %Y")
 
 comparison = comparison.sort_values("Month", ascending=False)
 
@@ -266,6 +267,7 @@ recent_data = recent_data.rename(
         "ANOM.3": "Actual Anomaly (°C)"
     }
 )
+recent_data["Month"] = recent_data["Month"].dt.strftime("%b %Y")
 
 st.dataframe(
     recent_data.sort_values("Month", ascending=False).style.format({
